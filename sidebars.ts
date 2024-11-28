@@ -18,7 +18,8 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'index',
+    // TODO:  нудно подумать над тем, какая будет здесь главная страничка. пока комменчу
+    // 'index',
     // {
     //   type: 'category',
     //   label: 'Basics',
