@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -45,5 +45,8 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "repository": "https://github.com/schemistrylab/docs.git",
+  "author": "Beskrovnyy Yuriy <mr.bes1996@mail.ru>",
+  "license": "MIT"
 }
