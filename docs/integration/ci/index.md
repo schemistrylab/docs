@@ -1,3 +1,3 @@
 ---
-sidebar_label: 'Integrations'
+sidebar_label: 'Overview'
 ---

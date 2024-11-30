@@ -58,8 +58,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Integrations',
+      label: 'Instruments',
       items: [
+        'integration/index',
         {
           type: 'category',
           label: 'CLI',
