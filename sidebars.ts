@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    // TODO:  нудно подумать над тем, какая будет здесь главная страничка. пока комменчу
+    // TODO:  нужно подумать над тем, какая будет здесь главная страничка. пока комменчу
     // 'index',
     // {
     //   type: 'category',
@@ -40,17 +40,10 @@ const sidebars: SidebarsConfig = {
     //     'tutorial-extras/manage-docs-versions',
     //   ],
     // },
+    'introduction',
     {
       type: 'category',
-      label: 'About schemistry',
-      items: [
-        'about_schemistry/how_to_start',
-        'about_schemistry/anatomy',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Getting started',
+      label: 'Начало работы',
       items: [
         'getting_started/installation',
         'getting_started/howto',
@@ -58,19 +51,33 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Instruments',
+      label: 'О Schemistry',
+      items: [
+        'about_schemistry/how_to_start',
+        'about_schemistry/anatomy',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Инструменты',
       items: [
         'integration/index',
         {
           type: 'category',
-          label: 'CLI',
+          label: 'Инструмент командной строки (CLI)',
           items: [
             'integration/cli/index',
             {
               type: 'category',
-              label: 'Commands',
+              label: 'Доступные команды',
               items: [
-                'integration/cli/commands/init',
+                'integration/cli/commands/mod/init',
+                'integration/cli/commands/mod/get',
+                'integration/cli/commands/mod/pull',
+                'integration/cli/commands/mod/push',
+                'integration/cli/commands/mod/codegen',
+                'integration/cli/commands/mod/lint',
+                'integration/cli/commands/mod/major',
               ],
             },
           ],
@@ -87,6 +94,13 @@ const sidebars: SidebarsConfig = {
                 'integration/ci/supported/github_actions/index',
               ],
             },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Ручное разворачивание реестра',
+          items: [
+            'self_hosted/index',
           ],
         },
       ]

@@ -1,3 +1,3 @@
 ---
-sidebar_label: 'How to'
+sidebar_label: 'Набор готовых рецептов'
 ---

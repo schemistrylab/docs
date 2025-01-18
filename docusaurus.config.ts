@@ -148,7 +148,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${projectStartDate.getFullYear()} Schemistrylab, Inc. Built with Docusaurus.`,
+      copyright: `Авторское право © ${projectStartDate.getFullYear()}-${new Date().getFullYear() } Schemistrylab, Inc. Создано с помощью Docusaurus❤️`,
     },
     prism: {
       theme: prismThemes.github,
