@@ -89,7 +89,7 @@ const sidebars: SidebarsConfig = {
             'integration/ci/index',
             {
               type: 'category',
-              label: 'Supported CI systems',
+              label: 'Поддерживаемые CI системы',
               items: [
                 'integration/ci/supported/github_actions/index',
               ],
